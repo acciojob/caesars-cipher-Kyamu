@@ -16,7 +16,7 @@ function rot13(encodedStr){
 
 	var words=encodedStr.split(" ");
 	for (let index = 0; index < words.length; index++) {
-		var word=words[i];
+		var word=words[index];
 		var decoded_word='';
 		for (let index = 0; index < word.length; index++) {
 			var char=word.charAt(index);
